@@ -23,6 +23,12 @@ module.exports = {
   plugins: ['react'],
   // Eslint ignora esses arquivos
   ignorePatterns: ['.eslintrc.js'],
+  // Regras do eslint
+  rules: {
+    'react/react-in-jsx-scope': 'off',
+    'import/no-unresolved': 'off',
+    'no-undef': 'off'
+  },
   // Configurações extras do eslint
   settings: {
     react: {
